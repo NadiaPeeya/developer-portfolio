@@ -40,6 +40,13 @@ h1{
     border-image: linear-gradient(crimson, tomato);
     border-image-slice: 1;
 }
+.box-shadow:hover{
+    background: rgba(214, 24, 34, 0.068);
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: -3px 0px 5px rgba(211, 35, 35, 0.425);
+    transform: scale(1.03);
+    transition: 1ms;
+}
 
 .link-button{
     text-decoration: none;
@@ -49,6 +56,16 @@ h1{
     color: white;
     font-weight: 700;
     background-image: linear-gradient(crimson, tomato);
+    
+
+
+}
+.link-button:hover{
+
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: -3px 0px 5px #777;
+    transform: scale(1.05);
+    transition: 1ms;
 
 
 }
